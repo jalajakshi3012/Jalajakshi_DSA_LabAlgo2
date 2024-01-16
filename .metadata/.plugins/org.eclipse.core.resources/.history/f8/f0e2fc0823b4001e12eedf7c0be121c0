@@ -1,0 +1,26 @@
+package com.paymoney.checker;
+
+import java.util.Scanner;
+
+public class CurrencyDenominations {
+	
+	
+	Integer[] currencyList;
+	int currencyListSize;
+	int amount;
+	
+	Scanner input=new Scanner(System.in);
+	void collectCurrencyList()
+	{
+		System.out.println("enter the size of currency denominations");
+		currencyListSize=input.nextInt();
+		currencyList=new Integer[currencyListSize];
+		for(int i=0;i<currencyListSize;i++)
+		{
+			currencyList[i]=input.nextInt();
+		}
+		
+	}
+	
+
+}

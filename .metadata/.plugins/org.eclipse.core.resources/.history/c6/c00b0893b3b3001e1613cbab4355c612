@@ -1,0 +1,5 @@
+package com.paymoney.checker;
+
+public class PayMoneyDailyTarget {
+
+}

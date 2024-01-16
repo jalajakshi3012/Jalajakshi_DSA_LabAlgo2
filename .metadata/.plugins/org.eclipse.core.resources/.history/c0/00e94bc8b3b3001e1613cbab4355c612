@@ -1,0 +1,30 @@
+package com.paymoney.checker;
+
+import java.util.Scanner;
+
+public class PayMoneyDailyTarget {
+	
+	Integer[] transactionList;
+	int transactionCount;
+	int dialyTarget;
+	
+	void CollectTransacrtionValues()
+	{
+		int transaction;
+		Scanner sc=new Scanner(System.in);
+		transactionCount=sc.nextInt();
+		
+		for(int i=0;i<transactionCount;i++)
+		{
+			transactionList[i]=sc.nextInt();
+		}
+		
+	}
+	
+	void CollectDailyTarget() {
+		
+	}
+	
+	
+
+}
